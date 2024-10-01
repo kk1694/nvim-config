@@ -6,4 +6,7 @@ vim.cmd("set shiftwidth=4")
 vim.g.mapleader = " "
 vim.api.nvim_set_keymap('i', 'jj', '<Esc>', { noremap = true })
 
+vim.opt.number = true
+vim.opt.relativenumber = true
+
 
